@@ -1,6 +1,8 @@
 #background {
-      background-image: url("http://4.bp.blogspot.com/-8vkNqQnIAXc/VGFa_ghU32I/AAAAAAAAAOw/VD7XG2OWasg/s1600/market-square-portsmouth-sunset.jpg");
-      background-color: black;
+ background-image: url("portsmouth.jpg");
+ background-size: 115%
+
+
 }
 
 #test {
@@ -19,7 +21,6 @@ p{
 }
 
 footer {
-    /*background-color: black;*/
     position: fixed;
     left: 0;
     bottom: 0;
@@ -76,7 +77,7 @@ h1 {
 }	 
 #form
 {
-	height: 444px;
+    height: 444px;
     width: 220px;
     opacity: 0.8;
     position: relative;
@@ -99,7 +100,7 @@ h1 {
     margin-left: 10px;
 }
 .b{
-	height: 9%;
+    height: 9%;
     width: 98%;
     border-radius: 4px;
     margin-top: 11%;
