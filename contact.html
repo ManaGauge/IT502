@@ -1,3 +1,4 @@
+
 <link rel="stylesheet" type="text/css" href="template.css" media="screen" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div id=background>
@@ -18,12 +19,14 @@
  target="_top">reecefarness@hotmail.com</a><br>
 </p>
 
+
 <div id="form">
-<form action="MAILTO:sudarto.andreas@gmail.com" method="post" enctype="text/plain"
-  onsubmit="this.submit(); this.reset(); return false;">
-  <input class="a" type="text" name="name" placeholder="Enter your name" tabindex="1" required autofocus/>
+<form method="POST" onsubmit="this.submit(); this.reset(); return false;"
+
+  action="https://script.google.com/macros/s/AKfycbxspqSdwQZ_rDctbcjxcnF_ALb5sqno7ZDVDLBAFYlEW-8xxqaG/exec">
+  <input class="a" type="text" name="name" placeholder="Enter your name" tabindex="1" focus required/>
   <br>
-  <input class="a" type="tel" name="phone" placeholder="Enter your phone number" tabindex="2" required/>
+  <input class="a" type="tel" pattern="^\d{3}-\d{3}-\d{4}$" name="phone" placeholder="Number format:xxx-xxx-xxxx" tabindex="2" required/>
   <br>
   <input class="a" type="email" name="email" placeholder="Enter your email" tabindex="3" required/>
   <br>
@@ -33,6 +36,7 @@
   <input class="q" type="reset" value="Reset">
 
 </form> 
+
 
 </div>
 <div class="map">
@@ -47,6 +51,5 @@
   <p> </p>
 </footer>
 </div>
-
-
-
+<script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
